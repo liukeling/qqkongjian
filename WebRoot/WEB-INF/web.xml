@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>veryCode</servlet-name>
+    <servlet-class>servlet.veryCode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>login</servlet-name>
+    <servlet-class>servlet.loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>servlet.logoutservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>buttonservlet</servlet-name>
+    <servlet-class>servlet.buttonservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fabiaoservlet</servlet-name>
+    <servlet-class>servlet.fabiaoservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>zpzservlet</servlet-name>
+    <servlet-class>servlet.zpzservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deletess</servlet-name>
+    <servlet-class>servlet.deletess</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShuoShuoJsonServer</servlet-name>
+    <servlet-class>servlet.ShuoShuoJsonServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>aboutSSserver</servlet-name>
+    <servlet-class>servlet.aboutSSserver</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AboutShuoShuoServer</servlet-name>
+    <servlet-class>servlet.AboutShuoShuoServer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>abc</servlet-name>
+    <servlet-class>servlet.abc</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>veryCode</servlet-name>
+    <url-pattern>/servlet/veryCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/servlet/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/servlet/logoutservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>buttonservlet</servlet-name>
+    <url-pattern>/servlet/buttonservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fabiaoservlet</servlet-name>
+    <url-pattern>/servlet/fabiaoservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zpzservlet</servlet-name>
+    <url-pattern>/servlet/zpzservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deletess</servlet-name>
+    <url-pattern>/servlet/deletess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShuoShuoJsonServer</servlet-name>
+    <url-pattern>/servlet/ShuoShuoJsonServer</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
